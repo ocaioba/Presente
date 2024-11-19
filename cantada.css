@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fcfcf6;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    border: 2px solid #ccc; 
+    background-color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.buttons {
+    position: relative;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#yesButton {
+    background-color: #4caf50;
+    color: rgb(255, 255, 255);
+    z-index: 3;
+}
+
+#yesButton:hover {
+    background-color: #45a049;
+}
+
+#noButton {
+    background-color: #ff5252;
+    color: white;
+    position: absolute;
+    z-index: 3;
+}
+
+#noButton {
+    transition: all 0.3s ease;
+}
+
+
+#noButton:hover {
+    background-color: #ff0000;
+}
