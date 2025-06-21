@@ -139,7 +139,7 @@ noButton.addEventListener("mouseenter", () => {
             </head>
             <body>
                 <div class="question-container">
-                    <h1>Não é possivel...Então vamos lá de 0 a 10, qual é a nossa chance de ficar juntos?</h1>
+                    <h1>Não é possivel...me ajuda ai ana 😿, de 0 a 10, qual é a nossa chance de ficar juntos?</h1>
                     <div class="input-container">
                         <input type="number" id="chanceInput" min="0" max="10" placeholder="Digite a sua resposta" />
                         <button onclick="submitAnswer()">Enviar</button>
@@ -156,7 +156,7 @@ noButton.addEventListener("mouseenter", () => {
                         } else if (value == 10) {
                             alert("SUCESSO!!! 😍😍😍😍😍");
                         } else {
-                            alert("Sem trapacear Helena, digita um valor entre 0 e 10.");
+                            alert("Sem trapacear Ana, digita um valor entre 0 e 10.");
                         }
                     }
                 </script>
@@ -197,7 +197,7 @@ yesButton.addEventListener("click", () => {
             </style>
         </head>
         <body>
-            <h1>Ai sim Helena! ❤️❤️😍😍😘😘😂😂</h1>
+            <h1>Ai sim Ana! ❤️❤️😍😍😘😘😂😂</h1>
         </body>
         </html>
     `);
